@@ -1,0 +1,12 @@
+[package]
+name = "rust_extractSNPs"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+# cli
+clap = { version = "4.5", features = ["derive"] }
+# fasta_IO
+seq_io = { git = "https://github.com/markschl/seq_io/", branch = "v0.4"}
+# error_handling
+thiserror = "1.0.59"
